@@ -13,4 +13,8 @@ public class UserController {
 		return "Welcome to Git!!";
 	}
 
+	@GetMapping("/record")
+	public String getOneRecord() {
+		return "record";
+	}
 }
